@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script src="./js/jquery.backstretch.min.js"></script>
+<script src="./js/skrollr.min.js"></script>
+<link href="./default.css" rel="stylesheet">
+<link href="./linkstyles.css" rel="stylesheet">
+<link href="./src/css/lightbox.css" rel="stylesheet">
+<title>Insert title here</title>
+<style type="text/css">
+ul {
+	width: 80%;
+	text-align: left;
+}
+
+ul>li {
+	list-style: none;
+	margin-bottom: 5px;
+	background: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(200, 130, 130, 0.8);
+	padding: 10px;
+}
+
+.diary {
+	border-bottom: 1px solid rgba(200, 130, 130, 0.8);
+	color: rgba(200, 130, 130, 1)
+}
+
+.title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+	<div class="menu " data-0="height:20%" data-50="height:10%;">
+		<div class="menu_btn">
+			<span class="text"> <a href="./index.html" text="めいん"><img
+					src="./images/btn (1).png" /></a></span>
+		</div>
+		<div class="menu_btn">
+			<span class="text"><a href="./info.html" text="コラボカフェとはな～に？"><img
+					src="./images/btn (7).png" /></a></span>
+		</div>
+		<div class="menu_btn">
+			<span class="text"><a href="./Staff.html"><img
+					src="./images/btn (6).png" /></a></span>
+		</div>
+
+		<img src="logo.png" style="height: 100%; width: auto" />
+
+		<div class="menu_btn">
+			<span class="text"><a href="./gallery.html"><img
+					src="./images/btn (5).png" /></a></span>
+		</div>
+		<div class="menu_btn">
+			<span class="text"><a href="./diary.html"><img
+					src="./images/btn (4).png" /></a></span>
+		</div>
+		<div class="menu_btn">
+			<span class="text"><a href="./Event.html"><img
+					src="./images/btn (3).png" /></a></span>
+		</div>
+	</div>
+	<div data-0="height:22%" data-50="height:10%;"></div>
+	<div class="main" style="text-align: center">
+		<br /> <img src="gallery.png" />
+		<div class="inside">
+			<ul>
+				<li><div class="diary">
+						19XX年4月1日 <span class="title">学園☆シャルノス</span>
+					</div>
+					<div class="diary">
+						<img src="./comics/2.png" style="width: 30%" /><img
+							src="./comics/1.png" style="width: 30%" /><br />
+						<br /> <a href="#comic1" class="comicv" rel="7" alt=""
+							style="font-weight: bold">続きを読む</a>
+					</div></li>
+				<li>
+					<div class="diary">
+						19XX年4月1日 <span class="title">仮想給仕遊戯《断章》</span>
+					</div>
+					<div class="diary">
+
+						《序》<br />
+						<br /> さあ。本日は奇矯な祝祭だ。<br /> 普段は一笑に付されし愚かしい妄言も赦される。一年に一度の日。<br />
+						であればこそ。どうか今暫く、冗長たる戯れにお付き合い願いたい。<br /> <br />
+						<br /> <a href="./diarys/2-1.html" style="font-weight: bold">続きを読む</a>
+
+					</div>
+				</li>
+				<li><div class="diary">
+						19XX年4月1日 <span class="title">メイド・グッバイ</span>
+					</div>
+					<div class="diary">
+						◇開幕／喫茶<br />
+						<br /> 「――さて」<br /> <br /> 男は言った。<br /> それは、奇妙な仮面を被った男だった。<br /> <br />道化の如き姿であるが、一世代前の仏蘭西貴族のようでもある。
+						<br />奇妙な人物。 <br />仮面と服装は彼をそう思わせる。 <br />彼は決して自らの名を口にすることがない。 <br />
+						<br /> <a href="./diarys/1-1.html" style="font-weight: bold">続きを読む</a>
+					</div></li>
+			</ul>
+
+		</div>
+	</div>
+
+</body>
+<script>
+	window.onload = function() {
+		skrollr.init({
+			forceHeight : false
+		});
+	}
+</script>
+<script src="./src/js/lightbox.js"></script>
+<script src="./js/manga.js"></script>
+</html>

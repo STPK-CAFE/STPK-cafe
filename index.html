@@ -49,14 +49,15 @@
 	<div
 		style="padding: 10px; padding-left: 10%; background: rgba(255, 255, 255, .8)">
 		<span
-			style="border-radius: 3px; background: #f06eaa; color: white; padding: 3px">今週のメイド&執事♡</span>
+			style="border-radius: 3px; background: #f06eaa; color: white; padding: 3px">先週のメイド&執事♡</span>
 		5位　シャルル（でっかい方）　4位　アリサ　3位　ジャガーマン　2位　ハインツ　1位　レムル
 	</div>
 	<div class="main">
 		<div class="inside" style="text-align: center"><br/>
-		<h1>世界歴売上ランキング 1位 に輝く（かもしれない）<br/>湯煙のスチームパンク！望のコラボカフェオープン！</h1>
-		
+		<h1>世界歴売上ランキング 1位 に輝く（かもしれない）<br/>湯煙のスチームパンク！望のコラボカフェオープン！</h1>	
+		<small>今回もライアーソフト様、桜井光様と0.1ミクロンも関係のない同人企画です</small>
 			<div style="text-align: center">
+			<a href="#" id="open"><img src="click.png"/></a>
 			<img style="width:400px"  src="./images/osawa.png"/>
 				<img style="width:400px" src="./images/contact.png" />
 			</div>
@@ -68,9 +69,9 @@
 <script>
 	$('.img').css('height', $('.banner').css('height'));
 	$('.img').css('width', $('.banner').css('width'));
-	$('.imgs1').backstretch('banner1.png');
-	$('.imgs2').backstretch('banner2.png');
-	$('.imgs3').backstretch('banner3.png');
+	$('.imgs1').backstretch('http://imgur.com/nCauOeR.png');
+	$('.imgs2').backstretch('http://imgur.com/61jFbeK.png');
+	$('.imgs3').backstretch('http://i.imgur.com/jUZ6luO.png');
 	$(".banner > .img:gt(0)").hide();
 	setInterval(function() {
 		$('.banner > .img:first').fadeOut(1000).next().fadeIn(1000).end()
@@ -82,5 +83,13 @@
 			forceHeight : false
 		});
 	}
+	
+	$('#open').click(function popupOpen(e){
+		e.preventDefault();
+		var popUrl = "./form.html";
+		var popOption = "width=760, height=500, location=no, resizable=no, scrollbars=no, status=no;"; 
+			window.open(popUrl,"",popOption);
+	});
+
 </script>
 </html>

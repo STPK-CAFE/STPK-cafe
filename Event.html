@@ -67,10 +67,13 @@
 			</table>
 
 			<div style="text-align: left">
-			<img src="./usogame.png"/><br/>
 			<img src="./images/COLA.png"/><br/>
+			<div style="text-align:center">
+			２４２３年に公開予定のソーシャルゲーム「電脳のイリジア」とコラボ確定。
+			<a href="#" id="game_open"><img src="./usogame.png"/><br/>
 			<img style="width:300px" src="card1.png"/> <img style="width:300px" src="card2.png"/><br/>
 			事前登録者にはＳＳＲ和風メイドキーアとＳＳＲメイドネオンをプレゼント！
+			</div>
 			</div>
 		</div>
 	</div>
@@ -84,6 +87,13 @@
 			fitImagesInViewport : false
 		})
 	}
+	
+	$('#game_open').click(function popupOpen(e){
+			e.preventDefault();
+			var popUrl = "game.html";
+			var popOption = "width=960, height=638, location=no, resizable=no, scrollbars=no, status=no;"; 
+				window.open(popUrl,"",popOption);
+		});
 </script>
 <script src="./src/js/lightbox.js"></script>
 

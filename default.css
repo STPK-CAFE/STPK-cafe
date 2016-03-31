@@ -155,6 +155,11 @@ background: url('kamizuki.jpg') no-repeat;
 background-size:100% auto;	
 background-position: center;
 }
+.th10{
+background: url('MAID.png') no-repeat;
+background-size:100% auto;	
+background-position: center;
+}
 
 .page_list{
 	text-align:center;

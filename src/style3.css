@@ -120,6 +120,12 @@
 	background-size:cover;
 	background-position: center center;
 }
+.ch-img-14{ 
+	background-image: url('../images/prof10.png');
+	z-index: 10;
+	background-size:cover;
+	background-position: center center;
+}
 .ch-info {
 	position: absolute;
 	width: 100%;
